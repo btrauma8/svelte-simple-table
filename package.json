@@ -1,0 +1,30 @@
+{
+  "name": "svelte-simple-table",
+  "version": "0.2.1",
+  "description": "A simple, sortable, filterable, pagable svelte table component",
+  "svelte": "src/index.js",
+  "module": "index.mjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build",
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "rollup": "^1.12.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "svelte": "^3.0.0",
+    "typescript": "^3.6.3"
+  },
+  "keywords": [
+    "svelte",
+    "table",
+    "sortable"
+  ],
+  "files": [
+    "src",
+    "index.mjs",
+    "index.js"
+  ]
+}
